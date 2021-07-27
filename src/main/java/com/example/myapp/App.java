@@ -36,7 +36,7 @@ public class App {
         String region = "us-east-1";
         String instanceName = "anthill-staging-rds.c4tmpumuvt87.us-east-1.rds.amazonaws.com";
         String port = "5432";
-        String username = "postgres";
+        String username = "test_rds";
 	
         Date now = new Date();
         String date = new SimpleDateFormat("yyyyMMdd").format(now);
