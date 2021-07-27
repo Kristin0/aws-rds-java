@@ -1,0 +1,4 @@
+test/SdkClientException.class
+com/amazonaws/codesamples/App.class
+test2/AmazonClientException.class
+test3/SdkBaseException.class

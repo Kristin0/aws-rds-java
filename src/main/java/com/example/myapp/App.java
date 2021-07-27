@@ -44,7 +44,7 @@ public class App {
         DefaultAWSCredentialsProviderChain creds = new DefaultAWSCredentialsProviderChain();
 	    String awsAccessKey = creds.getCredentials().getAWSAccessKeyId();
 	    String awsSecretKey = creds.getCredentials().getAWSSecretKey();
-        String expiryMinutes = "10000";
+        String expiryMinutes = "1000";
         
         System.out.println("Step 1:  Create a canonical request:");
         String canonicalString = createCanonicalString(username, awsAccessKey, date, dateTimeStamp, region, expiryMinutes, instanceName, port);
